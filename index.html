@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="Description" content="Basic javscript Programs">
+    <title>Basic JS Programs</title>
+</head>
+<body >
+<div class="grid-container">
+<!-- Factorial Number -->
+<div class="grid-item">
+    <h1>Factorial Number</h1>
+    <span class="inputt">Enter number : <input id="num" type="number"></span>
+    <button onclick="factorial()">Factorize</button>
+    <p id="result"></p>
+</div>
+<!-- Fibonacci Series -->
+<div class="grid-item">
+    <h1>Fibonacci Series</h1>
+    <span class="inputt">Enter number : <input id="numfibo" type="number"></span>
+    <button onclick="fibonacci()">Get Series</button>
+    <p id="resultfibo" onload="fibonacci()"></p>
+    <p id="finalfibo" onload="term()"></p>
+</div>
+<!-- Armstrong Number -->
+<div class="grid-item">
+    <h1>Armstrong Number</h1>
+    <span class="inputt">Enter number : <input id="numarmstrong" type="number"></span>
+    <button onclick="Armstrong()">Check</button>
+    <p id="resultarmstrong" onload=""></p>
+  
+</div>
+<!-- Reverse a Number -->
+<div class="grid-item">
+    <h1>Reverse a Number</h1>
+    <span class="inputt">Enter number : <input id="numReverse" type="number"></span>
+    <button onclick="reverseNumber()">Reverse</button>
+    <p id="reverseNumber"></p>
+</div>
+<!-- Find Prime Number Or Not -->
+<div class="grid-item">
+    <h1>Find Prime Number Or Not</h1>
+    <span class="inputt">Enter number : <input id="numPrime" type="number"></span>
+    <button onclick="primeNumber()">Check</button>
+    <p id="primeNumber"></p>
+</div>
+<!-- Find Leap Year Or Not -->
+<div class="grid-item">
+    <h1>Find Leap Year Or Not</h1>
+    <span class="inputt">Enter Year : <input id="numLeapYear" type="number"></span>
+    <button onclick="leapYear()">Check</button>
+    <p id="leapYear"></p>
+</div>
+
+</div>
+<footer>
+    <p class="credit">@Thilak</p>
+</footer>
+    <script src="./script.js"></script>
+</body>
+</html>
