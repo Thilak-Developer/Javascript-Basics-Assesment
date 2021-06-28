@@ -6,23 +6,25 @@ function factorial() {
     for(i=1;i<=num;i++)
     {
         j=j*i;
+        
     }
-     document.getElementById("result").innerHTML =" The factorial of "  +num+ " is " +j  ;
+     document.getElementById("result").innerHTML =" The factorial of "  +num+ " is " +j+ "<br>"  ;
 } 
 // fibonacci
 function fibonacci(){
     let i , numfibo , x , y , z  ;
     x = 0 ;
     y = 1 ;
-    
+    document.getElementById("resultfibo").innerHTML = " The Fibonacci Series of " +numfibo+ " is " ;
     numfibo = document.getElementById('numfibo').value;
     for(i=0;i<numfibo;i++){   
-    // document.write(" " +x);
+    
+    document.getElementById("finalfibo").innerHTML += "   "  +x;
      z = x + y ;
        y = x ;
        x = z ;
      }
-     document.getElementById("resultfibo").innerHTML = " The Fibonacci Series of " +numfibo+ " is " +x;
+     
 }
 // Armstrong
 function Armstrong()  {

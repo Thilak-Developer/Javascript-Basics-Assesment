@@ -8,34 +8,16 @@
     
     padding: 7px;
   }
-  .grid-item {
-    font-family: 'Big Shoulders Stencil Display', cursive;
+  .grid-items {
+    font-family: 'Cinzel', serif;
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 40px;
     font-size: 20px;
-    text-align: center;
-  }
-  .grid-item p{
-    color: rgb(0, 140, 255);
-    font-family: 'Staatliches', cursive;
     
   }
-  .grid-item button {
-    font-family: 'Kirang Haerang', cursive;
-    background-color: white;
-    color: black;
-    border: 2px solid rgb(107, 213, 255); /* Green */
-    padding: 3px 5px;
-    font-size: 15px;
-  }
-  .inputt
-  {
-    font-family: 'Cinzel', serif;
-  }
-  .credit{
+  h1{
     font-family: 'Cinzel', serif;
     text-align: center;
-    font-size: small;
   }
   a:link, a:visited {
     font-family: 'Cinzel', serif;
@@ -59,7 +41,8 @@
   .flexx p{
     font-family: 'Staatliches', cursive;
   }
-  h3{
+  .credit{
     font-family: 'Cinzel', serif;
     text-align: center;
+    font-size: small;
   }

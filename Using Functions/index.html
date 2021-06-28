@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Basic javscript Programs">
+    <link rel="stylesheet" href="style.css">
+    <title>Using functions</title>
+</head>
+<body>
+    <header>
+        <div class="flexx">
+         <p> To Check Out Assesment 1 - 6  &nbsp;&nbsp;<a href="../Assesment 1-6/index.html">Assesment 1-6</a> </p> 
+         <p> To Check Out Assesment 7 - 10 &nbsp;&nbsp;<a href="../Pattern Programs/index.html">Pattern Programs</a> </p>  
+        </div>
+    </header>
+    <h3>Using Functions [11-15]</h3>
+    <div class="grid-container">
+<div class="grid-items">
+    <h1>Find Factor Of Number</h1>
+    <span class="inputfactor">Enter number : <input id="numfactor" type="number"></span>
+    <button onclick="factor()">Find</button>
+    <p id="resultfact"></p>
+</div>
+<div class="grid-items">
+    <h1>Find Table Of Number</h1>
+    <span class="inputtable">Enter number : <input id="numtable" type="number"></span>
+    <button onclick="table()">Find</button>
+    <p id="resulttable"></p>
+</div>
+<div class="grid-items">
+    <h1>Swap Two Numbers</h1>
+    <span class="inputswap">Enter number : <input id="numswap" type="number" placeholder="Enter First Number ">&nbsp;&nbsp;<input id="numswapb" type="number" placeholder="Enter Second Number "></span>
+    <button onclick="swap()">Swap</button>
+    <p id="resultswap"></p>
+</div>
+<div class="grid-items">
+    <h3>Swap Two Numbers <br> Without Using Third Variable</h3>
+    <span class="inputswap1">Enter number : <input id="numswap1" type="number" placeholder="Enter First Number " >&nbsp;&nbsp;<input id="numswapb1" type="number" placeholder="Enter Second Number "></span>
+    <button onclick="swap1()">Swap</button>
+    <p id="resultswap1"></p>
+</div>
+
+
+
+    </div>
+    <div class="grid-item1">
+    <div class="grid-item">
+        <h3>14 . Pattern Program</h3>
+        <script>
+        function p3()
+        {
+            let n = 5 ;
+            let x = "";
+            for(i=1;i<=n;i++)
+            {
+                
+                for(j=1;j<=n;j++)
+                {
+                    x += "*";
+                }
+                x += "<br>" ;
+            }
+           
+            document.write(x);
+        }
+        p3();
+        </script>
+    </div>
+</div>
+    <footer>
+        <p class="credit">@Thilak</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

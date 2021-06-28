@@ -8,19 +8,33 @@
     
     padding: 7px;
   }
-  .grid-item {
-    font-family: 'Big Shoulders Stencil Display', cursive;
+  .grid-items {
+    font-family: 'Cinzel', serif;
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 40px;
     font-size: 20px;
+    
+  }
+  h1{
+    font-family: 'Cinzel', serif;
     text-align: center;
   }
-  .grid-item p{
+  h3{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+  }
+  
+  .credit{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: small;
+  }
+  .grid-items p{
     color: rgb(0, 140, 255);
     font-family: 'Staatliches', cursive;
     
   }
-  .grid-item button {
+  .grid-items button {
     font-family: 'Kirang Haerang', cursive;
     background-color: white;
     color: black;
@@ -28,14 +42,20 @@
     padding: 3px 5px;
     font-size: 15px;
   }
-  .inputt
-  {
-    font-family: 'Cinzel', serif;
+  .grid-item1 {
+    display: grid;
+    grid-template-rows: auto auto ;
+    
+    padding: 0;
   }
-  .credit{
+  .grid-item {
+    
     font-family: 'Cinzel', serif;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    font-size: 20px;
     text-align: center;
-    font-size: small;
+    
   }
   a:link, a:visited {
     font-family: 'Cinzel', serif;
@@ -58,8 +78,4 @@
   }
   .flexx p{
     font-family: 'Staatliches', cursive;
-  }
-  h3{
-    font-family: 'Cinzel', serif;
-    text-align: center;
   }

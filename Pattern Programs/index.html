@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Basic javscript Programs">
+    <link rel="stylesheet" href="style.css">
+    <title>Pattern Programs</title>
+</head>
+<body>
+    <header>
+        <div class="flexx">
+         <p> To Check Out Assesment 1 - 6  &nbsp;&nbsp;<a href="../Assesment 1-6/index.html">Assesment 1-6</a> </p> 
+         <p> To Check Out Assesment 11 - 15 &nbsp;&nbsp;<a href="../Using Functions/index.html">Using Functions</a> </p>  
+        </div>
+    </header>
+    
+    <h1>Pattern Programs [7-10]</h1>
+    
+<div class="grid-container">
+<div class="grid-items">
+    <h3>Assesment 7</h3>
+    <script>
+    function p1()
+    {
+    let n = 5;
+    let x = " ";
+    for(i=0;i<n;i++)
+    {
+        for(k=0;k<n-i;k++)
+        {
+            x += "*";
+        }
+        x += "<br>" ;
+    }
+    document.write(x);
+    }
+    p1();
+    </script>
+</div>
+<div class="grid-items">
+    <h3>Assesment 8</h3>
+    <script>
+    function p2()
+    {
+        let n = 5 ;
+        let x = "";
+        for(i=1;i<=n;i++)
+        {
+            for(j=1;j<=n-i+1;j++)
+            {
+                x += j;
+            }
+            x += "<br>" ;
+        }
+        document.write(x);
+    }
+    p2();
+    </script>
+</div>
+<div class="grid-items">
+    <h3>Assesment 9</h3>
+    <script>
+    function p3()
+    {
+        let n = 5 ;
+        let x = "";
+        for(i=1;i<=n;i++)
+        {
+            for(j=0;j<i;j++)
+            {
+                x += "*";
+            }
+            for(k=1;k<=n;k++)
+            {
+                x += "";
+            }
+            
+            x += "<br>" ;
+        }
+        document.write(x);
+    }
+    p3();
+    </script>
+</div>
+<div class="grid-items">
+    <h3>Assesment 10</h3>
+    <script>
+    function p4()
+    {
+        let n = 5 ;
+        let x = "";
+        for(i=1;i<=n;i++)
+        {
+            for(j=1;j<=i;j++)
+            {
+                x += j;
+            }
+            for(k=1;k<=n;k++)
+            {
+                x += "";
+            }
+            
+            x += "<br>" ;
+        }
+        document.write(x);
+    }
+    p4();
+    </script>
+</div>
+</div>   
+<footer>
+    <p class="credit">@Thilak</p>
+</footer>
+</body>
+</html>
